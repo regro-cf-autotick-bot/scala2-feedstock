@@ -1,5 +1,5 @@
 context:
-  version: "2.13.18"
+  version: "2.13.19-M1"
 
 package:
   name: scala2
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://github.com/scala/scala/archive/refs/tags/v${{ version }}.tar.gz
-    sha256: 7eb4e84b20967e49540c288214816f826314bae6c44ec81800b0426a885cd438
+    sha256: d99e1f5f98cddebdf042173742144790807af3fc32797f4d284e77a3af1d66a8
 
 build:
   number: 0
